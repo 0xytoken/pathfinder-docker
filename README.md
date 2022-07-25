@@ -1,8 +1,8 @@
 # Running StarkNet Nodes (very easy) v2
 
-*With the release of Pathfinder 0.2.6-alpha, you do no longer need any additional plugins to build the docker image. The JSON-RPC forwarding works now too! I can only recommend using docker instead of building the node from source!
+*With the release of Pathfinder 0.2.6-alpha, you do no longer need any additional plugins to build the docker image. The JSON-RPC forwarding works now too! I can only recommend using docker instead of building the node from source!*
 
-For background on StarkNet and Pathfinder check my original post: https://medium.com/coinmonks/how-to-run-a-starknet-node-very-easy-7937e3a7d942.*
+*For background on StarkNet and Pathfinder check my original post: https://medium.com/coinmonks/how-to-run-a-starknet-node-very-easy-7937e3a7d942.*
 
 ## The Super Easy Setup
 ### *Using Pathfinder and Watchtower to set up a self-updating StarkNet node.*
