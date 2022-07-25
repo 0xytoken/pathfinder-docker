@@ -5,7 +5,7 @@
 *For background on StarkNet and Pathfinder check my original post: https://medium.com/coinmonks/how-to-run-a-starknet-node-very-easy-7937e3a7d942.*
 
 ### The Super Easy Setup
-#### *Using Pathfinder and Watchtower to set up a self-updating StarkNet node.*
+*Using Pathfinder and Watchtower to set up a self-updating StarkNet node.*
 
 1. Clone my docker-compose file
     ```git clone https://github.com/0xytoken/pathfinder-docker.git```
