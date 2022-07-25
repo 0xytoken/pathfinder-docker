@@ -4,8 +4,8 @@
 
 *For background on StarkNet and Pathfinder check my original post: https://medium.com/coinmonks/how-to-run-a-starknet-node-very-easy-7937e3a7d942.*
 
-## The Super Easy Setup
-### *Using Pathfinder and Watchtower to set up a self-updating StarkNet node.*
+### The Super Easy Setup
+#### *Using Pathfinder and Watchtower to set up a self-updating StarkNet node.*
 
 1. Clone my docker-compose file
     ```git clone https://github.com/0xytoken/pathfinder-docker.git```
@@ -17,7 +17,7 @@
 
 Feel free to try it out yourself here.
 
-### *Et Voilà!* ✨ Welcome to the ZK revolution 🚀
+#### *Et Voilà!* ✨ Welcome to the ZK revolution 🚀
 
 Give yourself a good pat on the ol’ back-a-rooney! You are awesome! Be proud of yourself for supporting #decentralization and #accessibility!
 
