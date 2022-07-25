@@ -1,0 +1,21 @@
+version: "3"
+services:
+  pathfinder:
+    image: eqlabs/pathfinder
+    container_name: pathfinder
+    user: root
+    environment:
+     - RUST_LOG=info
+     - PATHFINDER_ETHEREUM_API_URL=https://eth-mainnet.alchemyapi.io/v2/XXXXXXXXXXX
+    ports:
+      - "9545:9545"
+    restart: always
+    volumes:
+      - $HOME/pathfinder:/usr/share/pathfinder/data
+  watchtower:
+    image: containrrr/watchtower
+    container_name: watchtower
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    command: pathfinder
+    restart: always
