@@ -25,5 +25,3 @@ Give yourself a good pat on the ol’ back-a-rooney! You are awesome! Be proud o
 
 https://discord.com/invite/Fx6zFE7n
 
-Feel free to check out my crypto coda page for more guides and alpha.
-
