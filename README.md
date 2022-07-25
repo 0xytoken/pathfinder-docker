@@ -8,14 +8,20 @@
 *Using Pathfinder and Watchtower to set up a self-updating StarkNet node.*
 
 1. Clone my docker-compose file
-    ```git clone https://github.com/0xytoken/pathfinder-docker.git```
+    ```
+    git clone https://github.com/0xytoken/pathfinder-docker.git
+    ```
 2. Enter the repo and call docker-compose up.
-    ```cd pathfinder-docker && docker-compose up```
+    ```
+    cd pathfinder-docker && docker-compose up
+    ```
 3. If Pathfinder and Watchtower spin up beautifully, then stop them and run the command again but this time in detached mode (aka. background)
-    ```docker-compose -d up```
+    ```
+    docker-compose -d up
+    ```
 4. If your Instances’ ports are open, then you can now query the nodes’ status on port 9545 using the JSON-RPC endpoint.
 
-Feel free to try it out yourself here.
+Feel free to try it out yourself [here](https://playground.open-rpc.org/?uiSchema%5BappBar%5D%5Bui:splitView%5D=false&schemaUrl=https://raw.githubusercontent.com/starkware-libs/starknet-specs/master/api/starknet_api_openrpc.json&uiSchema%5BappBar%5D%5Bui:input%5D=false&uiSchema%5BappBar%5D%5Bui:darkMode%5D=true&uiSchema%5BappBar%5D%5Bui:examplesDropdown%5D=false).
 
 #### *Et Voilà!* ✨ Welcome to the ZK revolution 🚀
 
